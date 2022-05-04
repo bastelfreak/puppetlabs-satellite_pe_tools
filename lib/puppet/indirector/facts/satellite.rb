@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'puppet/util/satellite'
+require File.dirname(__FILE__) + '/../../util/satellite.rb'
 require 'puppet/indirector/facts/puppetdb'
 
 # satellite.rb
